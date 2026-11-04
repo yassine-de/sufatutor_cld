@@ -1,0 +1,1691 @@
+{
+  "meta": {
+    "source": "المنهاج الدراسي للتعليم الابتدائي – الصيغة النهائية الكاملة، مديرية المناهج، يوليوز 2021",
+    "source_file": "source/curriculum_primaire_2021.pdf",
+    "quality_legend": {
+      "official": "Arabic text taken from the curriculum (spelling normalised)",
+      "derived": "Title composed by us (curriculum numbers units but does not name them)",
+      "unreviewed": "French translation by us, not yet checked by a native speaker"
+    }
+  },
+  "curriculum": {
+    "id": "e87e48e2-885e-5e7d-982f-919a229a5bb9",
+    "slug": "ma-primaire-2021",
+    "land": "MA",
+    "schuljahr_version": "2021-07",
+    "name_ar": "المنهاج الدراسي للتعليم الابتدائي (يوليوز 2021)",
+    "name_fr": "Curriculum de l'enseignement primaire (juillet 2021)",
+    "name": "Maroc – Curriculum de l'enseignement primaire (juillet 2021)"
+  },
+  "subject": {
+    "id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+    "curriculum_id": "e87e48e2-885e-5e7d-982f-919a229a5bb9",
+    "code": "math",
+    "name": {
+      "ar": "الرياضيات",
+      "fr": "Mathématiques"
+    }
+  },
+  "domains": {
+    "N": {
+      "ar": "الأعداد والحساب",
+      "fr": "Nombres et calcul"
+    },
+    "G": {
+      "ar": "الهندسة",
+      "fr": "Géométrie"
+    },
+    "M": {
+      "ar": "القياس",
+      "fr": "Mesures"
+    },
+    "D": {
+      "ar": "تنظيم ومعالجة البيانات",
+      "fr": "Organisation et traitement de données"
+    }
+  },
+  "avatars": [
+    {
+      "id": "163be939-de05-5b01-86a9-3de53c279447",
+      "slug": "fox",
+      "bild_pfad": "/avatars/fox.svg",
+      "reihenfolge": 1,
+      "name": {
+        "ar": "الثعلب",
+        "fr": "Renard"
+      }
+    },
+    {
+      "id": "7cd8e0a6-179a-52cf-b00c-3931355806bc",
+      "slug": "owl",
+      "bild_pfad": "/avatars/owl.svg",
+      "reihenfolge": 2,
+      "name": {
+        "ar": "البومة",
+        "fr": "Chouette"
+      }
+    },
+    {
+      "id": "610be29b-ab7d-53b0-a548-5e31b8dce002",
+      "slug": "cat",
+      "bild_pfad": "/avatars/cat.svg",
+      "reihenfolge": 3,
+      "name": {
+        "ar": "القط",
+        "fr": "Chat"
+      }
+    },
+    {
+      "id": "2103c6a4-a112-5657-a0c5-8d453e56541e",
+      "slug": "bear",
+      "bild_pfad": "/avatars/bear.svg",
+      "reihenfolge": 4,
+      "name": {
+        "ar": "الدب",
+        "fr": "Ourson"
+      }
+    },
+    {
+      "id": "bb549841-1579-51e7-bcb0-922953bf583d",
+      "slug": "rabbit",
+      "bild_pfad": "/avatars/rabbit.svg",
+      "reihenfolge": 5,
+      "name": {
+        "ar": "الأرنب",
+        "fr": "Lapin"
+      }
+    },
+    {
+      "id": "194eece0-411c-5405-9460-450508920b3b",
+      "slug": "lion",
+      "bild_pfad": "/avatars/lion.svg",
+      "reihenfolge": 6,
+      "name": {
+        "ar": "الأسد",
+        "fr": "Lion"
+      }
+    },
+    {
+      "id": "7316703a-7dfb-5970-8da5-9c49a947a4de",
+      "slug": "turtle",
+      "bild_pfad": "/avatars/turtle.svg",
+      "reihenfolge": 7,
+      "name": {
+        "ar": "السلحفاة",
+        "fr": "Tortue"
+      }
+    },
+    {
+      "id": "e11a31c6-5ebf-55b4-b1dd-2c3e6565de1e",
+      "slug": "robot",
+      "bild_pfad": "/avatars/robot.svg",
+      "reihenfolge": 8,
+      "name": {
+        "ar": "الروبوت",
+        "fr": "Robot"
+      }
+    }
+  ],
+  "grades": [
+    {
+      "id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+      "curriculum_id": "e87e48e2-885e-5e7d-982f-919a229a5bb9",
+      "stufe": "primaire",
+      "nummer": 1,
+      "name": {
+        "ar": "السنة الأولى من التعليم الابتدائي",
+        "fr": "1re année de l'enseignement primaire"
+      },
+      "source_pages": {
+        "distribution_pdf": [
+          299,
+          300
+        ],
+        "distribution_printed": [
+          300,
+          301
+        ]
+      },
+      "chapters": [
+        {
+          "id": "cd3463bf-1717-565c-bb04-86eb7c41f085",
+          "slug": "math-g1-u1",
+          "grade_id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 1,
+          "semester": 1,
+          "review_week": 6,
+          "label": {
+            "ar": "الوحدة 1",
+            "fr": "Unité 1"
+          },
+          "title": {
+            "ar": "الأعداد من 1 إلى 5",
+            "fr": "Les nombres de 1 à 5"
+          },
+          "topics": [
+            {
+              "id": "dec4b113-ece9-512c-94ba-a77224a343fc",
+              "slug": "math-g1-u1-t1",
+              "chapter_id": "cd3463bf-1717-565c-bb04-86eb7c41f085",
+              "reihenfolge": 1,
+              "week": 2,
+              "domain": "D",
+              "title": {
+                "ar": "تصنيف الأشياء حسب خاصيات اللون والشكل والحجم والطول",
+                "fr": "Classer des objets selon la couleur, la forme, la taille et la longueur"
+              }
+            },
+            {
+              "id": "0512d094-e586-57e7-9a0b-920afdcb7503",
+              "slug": "math-g1-u1-t2",
+              "chapter_id": "cd3463bf-1717-565c-bb04-86eb7c41f085",
+              "reihenfolge": 2,
+              "week": 3,
+              "domain": "N",
+              "title": {
+                "ar": "التواصل حدا بحد",
+                "fr": "Correspondance terme à terme"
+              }
+            },
+            {
+              "id": "53a7dafc-36ad-5f8a-8264-5869d5960d49",
+              "slug": "math-g1-u1-t3",
+              "chapter_id": "cd3463bf-1717-565c-bb04-86eb7c41f085",
+              "reihenfolge": 3,
+              "week": 4,
+              "domain": "N",
+              "title": {
+                "ar": "تقديم الأعداد من 1 إلى 5: قراءة وكتابة (بالأرقام وبالحروف) وتمثيلا",
+                "fr": "Présenter les nombres de 1 à 5 : lecture, écriture (en chiffres et en lettres) et représentation"
+              }
+            },
+            {
+              "id": "03ca613d-f539-59cc-9293-71d8cdf545f7",
+              "slug": "math-g1-u1-t4",
+              "chapter_id": "cd3463bf-1717-565c-bb04-86eb7c41f085",
+              "reihenfolge": 4,
+              "week": 5,
+              "domain": "N",
+              "title": {
+                "ar": "مقارنة وترتيب الأعداد من 1 إلى 5",
+                "fr": "Comparer et ranger les nombres de 1 à 5"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e4906c6d-a6bb-5ea2-abe7-81c299adf08d",
+          "slug": "math-g1-u2",
+          "grade_id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 2,
+          "semester": 1,
+          "review_week": 11,
+          "label": {
+            "ar": "الوحدة 2",
+            "fr": "Unité 2"
+          },
+          "title": {
+            "ar": "الموضع في المكان والأعداد حتى 9",
+            "fr": "Se repérer dans l'espace et les nombres jusqu'à 9"
+          },
+          "topics": [
+            {
+              "id": "fec2dc8f-463a-5d8b-902f-e4b24caede38",
+              "slug": "math-g1-u2-t1",
+              "chapter_id": "e4906c6d-a6bb-5ea2-abe7-81c299adf08d",
+              "reihenfolge": 1,
+              "week": 7,
+              "domain": "G",
+              "title": {
+                "ar": "التموضع في المكان (داخل، خارج، تحت، فوق، على، أسفل، أعلى)",
+                "fr": "Se situer dans l'espace (dedans, dehors, sous, sur, au-dessus, en bas, en haut)"
+              }
+            },
+            {
+              "id": "316896e4-2435-56c0-a16c-803965638f73",
+              "slug": "math-g1-u2-t2",
+              "chapter_id": "e4906c6d-a6bb-5ea2-abe7-81c299adf08d",
+              "reihenfolge": 2,
+              "week": 8,
+              "domain": "N",
+              "title": {
+                "ar": "الكتابة الجمعية من 1 إلى 5",
+                "fr": "Écritures additives de 1 à 5"
+              }
+            },
+            {
+              "id": "1994c515-b769-5cb4-9a69-435f2a3d1f68",
+              "slug": "math-g1-u2-t3",
+              "chapter_id": "e4906c6d-a6bb-5ea2-abe7-81c299adf08d",
+              "reihenfolge": 3,
+              "week": 9,
+              "domain": "N",
+              "title": {
+                "ar": "تقديم الأعداد من 6 إلى 9",
+                "fr": "Présenter les nombres de 6 à 9"
+              }
+            },
+            {
+              "id": "cdd28bb9-119c-5de0-9b93-379da6c716dc",
+              "slug": "math-g1-u2-t4",
+              "chapter_id": "e4906c6d-a6bb-5ea2-abe7-81c299adf08d",
+              "reihenfolge": 4,
+              "week": 10,
+              "domain": "N",
+              "title": {
+                "ar": "مقارنة وترتيب الأعداد من 1 إلى 9",
+                "fr": "Comparer et ranger les nombres de 1 à 9"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b39b2782-935c-5867-b5e9-1c849e420bba",
+          "slug": "math-g1-u3",
+          "grade_id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 3,
+          "semester": 1,
+          "review_week": 16,
+          "label": {
+            "ar": "الوحدة 3",
+            "fr": "Unité 3"
+          },
+          "title": {
+            "ar": "الجمع والأعداد حتى 10",
+            "fr": "L'addition et les nombres jusqu'à 10"
+          },
+          "topics": [
+            {
+              "id": "28f51922-d205-57af-b4cb-6fe792278fab",
+              "slug": "math-g1-u3-t1",
+              "chapter_id": "b39b2782-935c-5867-b5e9-1c849e420bba",
+              "reihenfolge": 1,
+              "week": 12,
+              "domain": "N",
+              "title": {
+                "ar": "حساب مجموع عددين لا يفوق مجموعهما 9",
+                "fr": "Calculer la somme de deux nombres dont la somme ne dépasse pas 9"
+              }
+            },
+            {
+              "id": "242d5ffe-cf7e-5da7-9177-b15cfae1a27a",
+              "slug": "math-g1-u3-t2",
+              "chapter_id": "b39b2782-935c-5867-b5e9-1c849e420bba",
+              "reihenfolge": 2,
+              "week": 13,
+              "domain": "M",
+              "title": {
+                "ar": "تقدير ومقارنة الأطوال",
+                "fr": "Estimer et comparer des longueurs"
+              }
+            },
+            {
+              "id": "e860c835-f6a6-570d-8439-176a696238d7",
+              "slug": "math-g1-u3-t3",
+              "chapter_id": "b39b2782-935c-5867-b5e9-1c849e420bba",
+              "reihenfolge": 3,
+              "week": 14,
+              "domain": "N",
+              "title": {
+                "ar": "تقديم العددين 0 و 10",
+                "fr": "Présenter les nombres 0 et 10"
+              }
+            },
+            {
+              "id": "c2167cc9-9db1-5053-9389-d7d071829e88",
+              "slug": "math-g1-u3-t4",
+              "chapter_id": "b39b2782-935c-5867-b5e9-1c849e420bba",
+              "reihenfolge": 4,
+              "week": 15,
+              "domain": "N",
+              "title": {
+                "ar": "مقارنة وترتيب الأعداد من 0 إلى 10",
+                "fr": "Comparer et ranger les nombres de 0 à 10"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4eb97396-d0c9-59aa-8cac-7d820d08bf70",
+          "slug": "math-g1-u4",
+          "grade_id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 4,
+          "semester": 2,
+          "review_week": 22,
+          "label": {
+            "ar": "الوحدة 4",
+            "fr": "Unité 4"
+          },
+          "title": {
+            "ar": "الأعداد حتى 20",
+            "fr": "Les nombres jusqu'à 20"
+          },
+          "topics": [
+            {
+              "id": "62f5752b-c47c-5244-8cdb-6cfb44c24c29",
+              "slug": "math-g1-u4-t1",
+              "chapter_id": "4eb97396-d0c9-59aa-8cac-7d820d08bf70",
+              "reihenfolge": 1,
+              "week": 18,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف الأعداد من 11 إلى 20 قراءة وكتابة وتمثيلا",
+                "fr": "Reconnaître les nombres de 11 à 20 : lecture, écriture et représentation"
+              }
+            },
+            {
+              "id": "e7058b95-9be6-5c05-aefe-f2bef5fc9ae4",
+              "slug": "math-g1-u4-t2",
+              "chapter_id": "4eb97396-d0c9-59aa-8cac-7d820d08bf70",
+              "reihenfolge": 2,
+              "week": 19,
+              "domain": "N",
+              "title": {
+                "ar": "مقارنة وترتيب الأعداد من 0 إلى 20",
+                "fr": "Comparer et ranger les nombres de 0 à 20"
+              }
+            },
+            {
+              "id": "1a68d935-f129-5e1c-b01b-4fbef025e012",
+              "slug": "math-g1-u4-t3",
+              "chapter_id": "4eb97396-d0c9-59aa-8cac-7d820d08bf70",
+              "reihenfolge": 3,
+              "week": 20,
+              "domain": "G",
+              "title": {
+                "ar": "تصنيف المجسمات وتعرف الأشكال الهندسية",
+                "fr": "Classer des solides et reconnaître des figures géométriques"
+              }
+            },
+            {
+              "id": "e9a99e80-c8cf-5545-b7b3-a960a97af4e5",
+              "slug": "math-g1-u4-t4",
+              "chapter_id": "4eb97396-d0c9-59aa-8cac-7d820d08bf70",
+              "reihenfolge": 4,
+              "week": 21,
+              "domain": "N",
+              "title": {
+                "ar": "الجمع باعتماد التقنية الاعتيادية في نطاق الأعداد من 0 إلى 20",
+                "fr": "Addition avec la technique usuelle pour les nombres de 0 à 20"
+              }
+            }
+          ]
+        },
+        {
+          "id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+          "slug": "math-g1-u5",
+          "grade_id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 5,
+          "semester": 2,
+          "review_week": 27,
+          "label": {
+            "ar": "الوحدة 5",
+            "fr": "Unité 5"
+          },
+          "title": {
+            "ar": "الأعداد حتى 99 والجمع",
+            "fr": "Les nombres jusqu'à 99 et l'addition"
+          },
+          "topics": [
+            {
+              "id": "0cf53f98-54aa-541a-aef9-93486d21e294",
+              "slug": "math-g1-u5-t1",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 1,
+              "week": 23,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف الأعداد من 21 إلى 50 قراءة وكتابة وتمثيلا",
+                "fr": "Reconnaître les nombres de 21 à 50 : lecture, écriture et représentation"
+              }
+            },
+            {
+              "id": "26334caf-bbe7-5da1-ae4d-a20dc0317f39",
+              "slug": "math-g1-u5-t2",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 2,
+              "week": 23,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف الأعداد من 51 إلى 99 قراءة وكتابة وتمثيلا",
+                "fr": "Reconnaître les nombres de 51 à 99 : lecture, écriture et représentation"
+              }
+            },
+            {
+              "id": "72150a2c-1c94-52e9-b293-bce5203241fa",
+              "slug": "math-g1-u5-t3",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 3,
+              "week": 24,
+              "domain": "N",
+              "title": {
+                "ar": "مقارنة الأعداد من 0 إلى 99",
+                "fr": "Comparer les nombres de 0 à 99"
+              }
+            },
+            {
+              "id": "402d2fa0-2560-5fb8-99a8-5f4209f2661e",
+              "slug": "math-g1-u5-t4",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 4,
+              "week": 24,
+              "domain": "G",
+              "title": {
+                "ar": "استعمال مسطرة لرسم خط بين نقطتين",
+                "fr": "Utiliser la règle pour tracer une ligne entre deux points"
+              }
+            },
+            {
+              "id": "fa365529-1438-51a9-96de-e5af2b708e19",
+              "slug": "math-g1-u5-t5",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 5,
+              "week": 25,
+              "domain": "N",
+              "title": {
+                "ar": "جمع الأعداد من 0 إلى 99 دون احتفاظ",
+                "fr": "Addition des nombres de 0 à 99 sans retenue"
+              }
+            },
+            {
+              "id": "84ec1ae6-9ba6-5eab-a644-d6664e121ef3",
+              "slug": "math-g1-u5-t6",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 6,
+              "week": 25,
+              "domain": "M",
+              "title": {
+                "ar": "تقدير ومقارنة كتل (أثقل، أخف، لهما نفس الكتلة)",
+                "fr": "Estimer et comparer des masses (plus lourd, plus léger, même masse)"
+              }
+            },
+            {
+              "id": "3ead0350-d3a1-5467-9e40-3298fb23d620",
+              "slug": "math-g1-u5-t7",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 7,
+              "week": 26,
+              "domain": "N",
+              "title": {
+                "ar": "جمع الأعداد من 0 إلى 99 بالاحتفاظ (1)",
+                "fr": "Addition des nombres de 0 à 99 avec retenue (1)"
+              }
+            },
+            {
+              "id": "450c218c-0bbb-5609-b002-ecbbd39f7f62",
+              "slug": "math-g1-u5-t8",
+              "chapter_id": "46ab1b6f-4715-5dc9-beb3-6088df8b6836",
+              "reihenfolge": 8,
+              "week": 26,
+              "domain": "D",
+              "title": {
+                "ar": "تصنيف أشياء حسب معيار واحد",
+                "fr": "Classer des objets selon un seul critère"
+              }
+            }
+          ]
+        },
+        {
+          "id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+          "slug": "math-g1-u6",
+          "grade_id": "dbd6d251-69d8-5837-a4f7-1d3a4e4990d6",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 6,
+          "semester": 2,
+          "review_week": 32,
+          "label": {
+            "ar": "الوحدة 6",
+            "fr": "Unité 6"
+          },
+          "title": {
+            "ar": "الجمع والطرح حتى 99",
+            "fr": "Addition et soustraction jusqu'à 99"
+          },
+          "topics": [
+            {
+              "id": "6128c27b-b4dd-5c7d-923f-b3fc7e0df3a0",
+              "slug": "math-g1-u6-t1",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 1,
+              "week": 28,
+              "domain": "N",
+              "title": {
+                "ar": "جمع الأعداد من 0 إلى 99 بالاحتفاظ (2)",
+                "fr": "Addition des nombres de 0 à 99 avec retenue (2)"
+              }
+            },
+            {
+              "id": "60573a5a-1ee5-5c30-9d32-b89154493186",
+              "slug": "math-g1-u6-t2",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 2,
+              "week": 28,
+              "domain": "M",
+              "title": {
+                "ar": "الزمان: تعرف اليوم، الأسبوع، الشهر، السنة",
+                "fr": "Le temps : le jour, la semaine, le mois, l'année"
+              }
+            },
+            {
+              "id": "b9bab35f-9830-5e33-9e44-933c7714ff61",
+              "slug": "math-g1-u6-t3",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 3,
+              "week": 29,
+              "domain": "N",
+              "title": {
+                "ar": "تقريب مفهوم الطرح انطلاقا من أنشطة جمعية وغيرها",
+                "fr": "Approcher la notion de soustraction à partir d'activités d'addition et autres"
+              }
+            },
+            {
+              "id": "44122d94-8454-5cf2-9ade-e2429ec8a8f9",
+              "slug": "math-g1-u6-t4",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 4,
+              "week": 29,
+              "domain": "D",
+              "title": {
+                "ar": "تنظيم بيانات وعرضها في جدول",
+                "fr": "Organiser des données et les présenter dans un tableau"
+              }
+            },
+            {
+              "id": "74833acf-e028-5ca9-8838-0ad9a4f4b07b",
+              "slug": "math-g1-u6-t5",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 5,
+              "week": 30,
+              "domain": "N",
+              "title": {
+                "ar": "الطرح دون احتفاظ: التقنية الاعتيادية",
+                "fr": "Soustraction sans retenue : la technique usuelle"
+              }
+            },
+            {
+              "id": "8c84db47-5180-5353-8978-40d7b04a6861",
+              "slug": "math-g1-u6-t6",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 6,
+              "week": 30,
+              "domain": "G",
+              "title": {
+                "ar": "رسم الأشكال الهندسية باعتماد التربيعات",
+                "fr": "Tracer des figures géométriques sur quadrillage"
+              }
+            },
+            {
+              "id": "78e10c1f-44d3-523d-94c4-1a30773afc17",
+              "slug": "math-g1-u6-t7",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 7,
+              "week": 31,
+              "domain": "N",
+              "title": {
+                "ar": "حساب فرق عددين دون احتفاظ بتوظيف التقنية الاعتيادية",
+                "fr": "Calculer la différence de deux nombres sans retenue avec la technique usuelle"
+              }
+            },
+            {
+              "id": "4d2acbb7-eaa0-5717-a51d-4dbb99c63618",
+              "slug": "math-g1-u6-t8",
+              "chapter_id": "7e58e812-2299-5e84-bdc8-cf797d3b24be",
+              "reihenfolge": 8,
+              "week": 31,
+              "domain": "M",
+              "title": {
+                "ar": "قراءة الساعة دون دقائق",
+                "fr": "Lire l'heure sans les minutes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+      "curriculum_id": "e87e48e2-885e-5e7d-982f-919a229a5bb9",
+      "stufe": "primaire",
+      "nummer": 2,
+      "name": {
+        "ar": "السنة الثانية من التعليم الابتدائي",
+        "fr": "2e année de l'enseignement primaire"
+      },
+      "source_pages": {
+        "distribution_pdf": [
+          305,
+          306
+        ],
+        "distribution_printed": [
+          306,
+          307
+        ]
+      },
+      "chapters": [
+        {
+          "id": "833eda2c-5b26-53c0-afd0-9fda1d031e09",
+          "slug": "math-g2-u1",
+          "grade_id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 1,
+          "semester": 1,
+          "review_week": 6,
+          "label": {
+            "ar": "الوحدة 1",
+            "fr": "Unité 1"
+          },
+          "title": {
+            "ar": "الأعداد حتى 999",
+            "fr": "Les nombres jusqu'à 999"
+          },
+          "topics": [
+            {
+              "id": "83e9194d-9dbb-5c57-a18b-e03b5d16f716",
+              "slug": "math-g2-u1-t1",
+              "chapter_id": "833eda2c-5b26-53c0-afd0-9fda1d031e09",
+              "reihenfolge": 1,
+              "week": 2,
+              "domain": "N",
+              "title": {
+                "ar": "الأعداد من 0 إلى 99",
+                "fr": "Les nombres de 0 à 99"
+              }
+            },
+            {
+              "id": "269020c7-db7a-5a54-8c6c-dfad204157bd",
+              "slug": "math-g2-u1-t2",
+              "chapter_id": "833eda2c-5b26-53c0-afd0-9fda1d031e09",
+              "reihenfolge": 2,
+              "week": 3,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف العدد 100 قراءة وكتابة وتمثيلا",
+                "fr": "Reconnaître le nombre 100 : lecture, écriture et représentation"
+              }
+            },
+            {
+              "id": "890cf16a-bbf5-52da-96b6-8dfa2a977a29",
+              "slug": "math-g2-u1-t3",
+              "chapter_id": "833eda2c-5b26-53c0-afd0-9fda1d031e09",
+              "reihenfolge": 3,
+              "week": 4,
+              "domain": "G",
+              "title": {
+                "ar": "إنشاء أشكال هندسية على التربيعات: المثلث، المستطيل، المربع",
+                "fr": "Construire des figures géométriques sur quadrillage : triangle, rectangle, carré"
+              }
+            },
+            {
+              "id": "8110087a-f266-5908-a747-5e047c40315f",
+              "slug": "math-g2-u1-t4",
+              "chapter_id": "833eda2c-5b26-53c0-afd0-9fda1d031e09",
+              "reihenfolge": 4,
+              "week": 5,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف الأعداد من 101 إلى 999 قراءة وكتابة وتمثيلا",
+                "fr": "Reconnaître les nombres de 101 à 999 : lecture, écriture et représentation"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c3cd8cd2-a829-5c06-af0b-e29a67be014b",
+          "slug": "math-g2-u2",
+          "grade_id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 2,
+          "semester": 1,
+          "review_week": 11,
+          "label": {
+            "ar": "الوحدة 2",
+            "fr": "Unité 2"
+          },
+          "title": {
+            "ar": "المقارنة والجمع والطرح حتى 999",
+            "fr": "Comparer, additionner et soustraire jusqu'à 999"
+          },
+          "topics": [
+            {
+              "id": "f3f3ebcd-8e9b-5921-8c9f-86d252d48c1e",
+              "slug": "math-g2-u2-t1",
+              "chapter_id": "c3cd8cd2-a829-5c06-af0b-e29a67be014b",
+              "reihenfolge": 1,
+              "week": 7,
+              "domain": "N",
+              "title": {
+                "ar": "مقارنة الأعداد من 0 إلى 999 وترتيبها",
+                "fr": "Comparer et ranger les nombres de 0 à 999"
+              }
+            },
+            {
+              "id": "d078acb4-3753-5b03-8179-b03f0d4c8d1a",
+              "slug": "math-g2-u2-t2",
+              "chapter_id": "c3cd8cd2-a829-5c06-af0b-e29a67be014b",
+              "reihenfolge": 2,
+              "week": 8,
+              "domain": "M",
+              "title": {
+                "ar": "تعرف m و cm واستعمالهما في قياس الأطوال",
+                "fr": "Connaître le m et le cm et les utiliser pour mesurer des longueurs"
+              }
+            },
+            {
+              "id": "6672e478-9dca-5621-a50d-e12fea77e626",
+              "slug": "math-g2-u2-t3",
+              "chapter_id": "c3cd8cd2-a829-5c06-af0b-e29a67be014b",
+              "reihenfolge": 3,
+              "week": 9,
+              "domain": "N",
+              "title": {
+                "ar": "استعمال التقنية الاعتيادية للجمع (بالاحتفاظ وبدونه) في نطاق الأعداد من 0 إلى 999",
+                "fr": "Utiliser la technique usuelle de l'addition (avec et sans retenue) pour les nombres de 0 à 999"
+              }
+            },
+            {
+              "id": "a8f3f2f6-f366-5152-ac0d-bd015ec9562f",
+              "slug": "math-g2-u2-t4",
+              "chapter_id": "c3cd8cd2-a829-5c06-af0b-e29a67be014b",
+              "reihenfolge": 4,
+              "week": 10,
+              "domain": "N",
+              "title": {
+                "ar": "استعمال التقنية الاعتيادية للطرح بدون احتفاظ في نطاق الأعداد من 0 إلى 999",
+                "fr": "Utiliser la technique usuelle de la soustraction sans retenue pour les nombres de 0 à 999"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c84f6ed6-4043-5e7b-9511-054e469d1210",
+          "slug": "math-g2-u3",
+          "grade_id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 3,
+          "semester": 1,
+          "review_week": 16,
+          "label": {
+            "ar": "الوحدة 3",
+            "fr": "Unité 3"
+          },
+          "title": {
+            "ar": "الكتل والطرح والضرب",
+            "fr": "Masses, soustraction et multiplication"
+          },
+          "topics": [
+            {
+              "id": "9feaa60b-31b7-5b3f-ad1a-9fc3e14cd004",
+              "slug": "math-g2-u3-t1",
+              "chapter_id": "c84f6ed6-4043-5e7b-9511-054e469d1210",
+              "reihenfolge": 1,
+              "week": 12,
+              "domain": "M",
+              "title": {
+                "ar": "تقدير وقياس الكتل ب: kg و g",
+                "fr": "Estimer et mesurer des masses en kg et g"
+              }
+            },
+            {
+              "id": "906d6d3a-3437-5f15-934d-29cfd25d6596",
+              "slug": "math-g2-u3-t2",
+              "chapter_id": "c84f6ed6-4043-5e7b-9511-054e469d1210",
+              "reihenfolge": 2,
+              "week": 13,
+              "domain": "N",
+              "title": {
+                "ar": "استعمال التقنية الاعتيادية للطرح بالاحتفاظ في نطاق الأعداد من 0 إلى 999",
+                "fr": "Utiliser la technique usuelle de la soustraction avec retenue pour les nombres de 0 à 999"
+              }
+            },
+            {
+              "id": "bed0aab9-adf2-5584-bebb-8b3befc66f1c",
+              "slug": "math-g2-u3-t3",
+              "chapter_id": "c84f6ed6-4043-5e7b-9511-054e469d1210",
+              "reihenfolge": 3,
+              "week": 14,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف الضرب واستعماله (الجمع المتكرر والكتابة الضربية)",
+                "fr": "Connaître la multiplication et l'utiliser (addition répétée et écriture multiplicative)"
+              }
+            },
+            {
+              "id": "f7643ad2-52a0-5a07-a1f1-69dae0162a71",
+              "slug": "math-g2-u3-t4",
+              "chapter_id": "c84f6ed6-4043-5e7b-9511-054e469d1210",
+              "reihenfolge": 4,
+              "week": 15,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف خاصية الضرب في 2 و 5 و 10 وتوظيفها",
+                "fr": "Connaître la propriété de la multiplication par 2, 5 et 10 et l'utiliser"
+              }
+            }
+          ]
+        },
+        {
+          "id": "a9cb0b6b-13fc-5c40-b32b-62817c4a1e67",
+          "slug": "math-g2-u4",
+          "grade_id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 4,
+          "semester": 2,
+          "review_week": 22,
+          "label": {
+            "ar": "الوحدة 4",
+            "fr": "Unité 4"
+          },
+          "title": {
+            "ar": "جدول الضرب والشبكة",
+            "fr": "Tables de multiplication et quadrillage"
+          },
+          "topics": [
+            {
+              "id": "c30320e5-1b36-5715-9d77-1368b40a722d",
+              "slug": "math-g2-u4-t1",
+              "chapter_id": "a9cb0b6b-13fc-5c40-b32b-62817c4a1e67",
+              "reihenfolge": 1,
+              "week": 18,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف خاصية الضرب في 3 و 4",
+                "fr": "Connaître la propriété de la multiplication par 3 et 4"
+              }
+            },
+            {
+              "id": "60c49672-4170-5a87-8f83-f6cbe000190a",
+              "slug": "math-g2-u4-t2",
+              "chapter_id": "a9cb0b6b-13fc-5c40-b32b-62817c4a1e67",
+              "reihenfolge": 2,
+              "week": 19,
+              "domain": "G",
+              "title": {
+                "ar": "التنقل على الشبكة (الخانة، المسار، القن، العقدة، المعلمة)",
+                "fr": "Se déplacer sur un quadrillage (case, trajet, nœud, repère)"
+              }
+            },
+            {
+              "id": "feafa5e5-e46f-5da6-bda4-432caa07dbf8",
+              "slug": "math-g2-u4-t3",
+              "chapter_id": "a9cb0b6b-13fc-5c40-b32b-62817c4a1e67",
+              "reihenfolge": 3,
+              "week": 20,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف خاصية الضرب في 6 و 7 وتوظيفهما",
+                "fr": "Connaître la propriété de la multiplication par 6 et 7 et l'utiliser"
+              }
+            },
+            {
+              "id": "1accc088-c048-5e47-beae-75a1d0dc0ec5",
+              "slug": "math-g2-u4-t4",
+              "chapter_id": "a9cb0b6b-13fc-5c40-b32b-62817c4a1e67",
+              "reihenfolge": 4,
+              "week": 21,
+              "domain": "D",
+              "title": {
+                "ar": "حل مسائل بسيطة باستخدام بيانات مأخوذة من جدول",
+                "fr": "Résoudre des problèmes simples à partir de données d'un tableau"
+              }
+            }
+          ]
+        },
+        {
+          "id": "46911730-b156-503c-be7f-1c622d6445d9",
+          "slug": "math-g2-u5",
+          "grade_id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 5,
+          "semester": 2,
+          "review_week": 27,
+          "label": {
+            "ar": "الوحدة 5",
+            "fr": "Unité 5"
+          },
+          "title": {
+            "ar": "الضرب والمجسمات والزمن",
+            "fr": "Multiplication, solides et temps"
+          },
+          "topics": [
+            {
+              "id": "692b24fb-9318-508e-af91-697f10a5a294",
+              "slug": "math-g2-u5-t1",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 1,
+              "week": 23,
+              "domain": "N",
+              "title": {
+                "ar": "تعرف خاصية الضرب في 8 و 9 وتوظيفهما",
+                "fr": "Connaître la propriété de la multiplication par 8 et 9 et l'utiliser"
+              }
+            },
+            {
+              "id": "0233901b-03f5-56c5-9912-ecf4f85f078e",
+              "slug": "math-g2-u5-t2",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 2,
+              "week": 23,
+              "domain": "M",
+              "title": {
+                "ar": "الزمن: قراءة الساعة العقربية والرقمية بالدقائق (15، 30، 45)",
+                "fr": "Le temps : lire l'heure sur une horloge à aiguilles et numérique, en minutes (15, 30, 45)"
+              }
+            },
+            {
+              "id": "5778de8b-4a57-5bd4-ab84-6183190b82fb",
+              "slug": "math-g2-u5-t3",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 3,
+              "week": 24,
+              "domain": "N",
+              "title": {
+                "ar": "الضرب: التقنية الاعتيادية دون احتفاظ في نطاق الأعداد من 0 إلى 999",
+                "fr": "Multiplication : la technique usuelle sans retenue pour les nombres de 0 à 999"
+              }
+            },
+            {
+              "id": "de4dc41f-a099-54e7-a207-7187577fe6b9",
+              "slug": "math-g2-u5-t4",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 4,
+              "week": 24,
+              "domain": "G",
+              "title": {
+                "ar": "الترصيف",
+                "fr": "Le pavage"
+              }
+            },
+            {
+              "id": "76a717cc-4847-56fc-8d2e-e52db3837adf",
+              "slug": "math-g2-u5-t5",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 5,
+              "week": 25,
+              "domain": "G",
+              "title": {
+                "ar": "المجسمات ونشرها: المكعب، متوازي المستطيلات، الأسطوانة، الهرم",
+                "fr": "Les solides et leurs patrons : cube, pavé droit, cylindre, pyramide"
+              }
+            },
+            {
+              "id": "b4cb1043-35db-53e3-8998-b3fe0493417d",
+              "slug": "math-g2-u5-t6",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 6,
+              "week": 25,
+              "domain": "M",
+              "title": {
+                "ar": "تقدير وقياس السعة: l و cl",
+                "fr": "Estimer et mesurer la capacité : l et cl"
+              }
+            },
+            {
+              "id": "8ac25923-09e3-53be-87d3-03e972c5d687",
+              "slug": "math-g2-u5-t7",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 7,
+              "week": 26,
+              "domain": "N",
+              "title": {
+                "ar": "الضرب: التقنية الاعتيادية دون احتفاظ في نطاق الأعداد من 0 إلى 999",
+                "fr": "Multiplication : la technique usuelle sans retenue pour les nombres de 0 à 999"
+              }
+            },
+            {
+              "id": "7e6a0a6f-c60b-5ac6-b8bb-a2a5a6499d50",
+              "slug": "math-g2-u5-t8",
+              "chapter_id": "46911730-b156-503c-be7f-1c622d6445d9",
+              "reihenfolge": 8,
+              "week": 26,
+              "domain": "G",
+              "title": {
+                "ar": "إنشاء الأشكال الهندسية: المستقيم والقطعة، المثلث",
+                "fr": "Construire des figures géométriques : droite et segment, triangle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+          "slug": "math-g2-u6",
+          "grade_id": "bd4509b7-81b4-5550-b085-a6f1a2dabf41",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 6,
+          "semester": 2,
+          "review_week": 32,
+          "label": {
+            "ar": "الوحدة 6",
+            "fr": "Unité 6"
+          },
+          "title": {
+            "ar": "الجمع والطرح والضرب وحل المسائل",
+            "fr": "Addition, soustraction, multiplication et problèmes"
+          },
+          "topics": [
+            {
+              "id": "6b1e7334-ffac-5a5b-aaec-02dac07f74ea",
+              "slug": "math-g2-u6-t1",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 1,
+              "week": 28,
+              "domain": "N",
+              "title": {
+                "ar": "الجمع والطرح والضرب بالاحتفاظ وبدونه في نطاق الأعداد من 0 إلى 999 (1)",
+                "fr": "Addition, soustraction et multiplication avec et sans retenue pour les nombres de 0 à 999 (1)"
+              }
+            },
+            {
+              "id": "f97357f6-02dd-5e31-bf50-f85df63565fa",
+              "slug": "math-g2-u6-t2",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 2,
+              "week": 28,
+              "domain": "M",
+              "title": {
+                "ar": "تقدير وقياس الزمن: اليوم، الأسبوع، الشهر",
+                "fr": "Estimer et mesurer le temps : le jour, la semaine, le mois"
+              }
+            },
+            {
+              "id": "f95bbc74-c435-5e16-81a5-2f997ff1ccec",
+              "slug": "math-g2-u6-t3",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 3,
+              "week": 29,
+              "domain": "N",
+              "title": {
+                "ar": "الجمع والطرح والضرب بالاحتفاظ وبدونه في نطاق الأعداد من 0 إلى 999 (2)",
+                "fr": "Addition, soustraction et multiplication avec et sans retenue pour les nombres de 0 à 999 (2)"
+              }
+            },
+            {
+              "id": "bf1202c5-b18d-53c7-a43f-9d9699aeb04c",
+              "slug": "math-g2-u6-t4",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 4,
+              "week": 29,
+              "domain": "M",
+              "title": {
+                "ar": "استعمال القطع النقدية والأوراق المالية المتداولة",
+                "fr": "Utiliser les pièces de monnaie et les billets en circulation"
+              }
+            },
+            {
+              "id": "c35bd4b0-7f18-5fa1-9327-490c3f392846",
+              "slug": "math-g2-u6-t5",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 5,
+              "week": 30,
+              "domain": "G",
+              "title": {
+                "ar": "الزاوية القائمة",
+                "fr": "L'angle droit"
+              }
+            },
+            {
+              "id": "abeace48-e714-5df5-9626-e7f9bdaf89bf",
+              "slug": "math-g2-u6-t6",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 6,
+              "week": 30,
+              "domain": "D",
+              "title": {
+                "ar": "قراءة وتأويل بيانات واردة في جدول",
+                "fr": "Lire et interpréter des données d'un tableau"
+              }
+            },
+            {
+              "id": "0f0db2a3-7af3-5807-9169-7720accb4cea",
+              "slug": "math-g2-u6-t7",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 7,
+              "week": 31,
+              "domain": "N",
+              "title": {
+                "ar": "الجمع والطرح والضرب: حل وضعيات مسائل",
+                "fr": "Addition, soustraction et multiplication : résoudre des situations-problèmes"
+              }
+            },
+            {
+              "id": "c4cc4500-871d-5ea4-be4a-2ed2b90380a6",
+              "slug": "math-g2-u6-t8",
+              "chapter_id": "3264ac5f-a09a-5023-8558-aa85483a0b3b",
+              "reihenfolge": 8,
+              "week": 31,
+              "domain": "G",
+              "title": {
+                "ar": "إنشاء الأشكال الهندسية",
+                "fr": "Construire des figures géométriques"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+      "curriculum_id": "e87e48e2-885e-5e7d-982f-919a229a5bb9",
+      "stufe": "primaire",
+      "nummer": 3,
+      "name": {
+        "ar": "السنة الثالثة من التعليم الابتدائي",
+        "fr": "3e année de l'enseignement primaire"
+      },
+      "source_pages": {
+        "distribution_pdf": [
+          311,
+          312
+        ],
+        "distribution_printed": [
+          312,
+          313
+        ]
+      },
+      "chapters": [
+        {
+          "id": "d20a06d4-76a4-5dbf-801d-dccbe322a8f8",
+          "slug": "math-g3-u1",
+          "grade_id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 1,
+          "semester": 1,
+          "review_week": 6,
+          "label": {
+            "ar": "الوحدة 1",
+            "fr": "Unité 1"
+          },
+          "title": {
+            "ar": "الأعداد حتى 999 والضرب",
+            "fr": "Les nombres jusqu'à 999 et la multiplication"
+          },
+          "topics": [
+            {
+              "id": "8875455e-a4b0-554a-92ae-9173b8e22103",
+              "slug": "math-g3-u1-t1",
+              "chapter_id": "d20a06d4-76a4-5dbf-801d-dccbe322a8f8",
+              "reihenfolge": 1,
+              "week": 2,
+              "domain": "N",
+              "title": {
+                "ar": "الأعداد من 0 إلى 999: قراءة وكتابة ومقارنة وترتيبا",
+                "fr": "Les nombres de 0 à 999 : lecture, écriture, comparaison et rangement"
+              }
+            },
+            {
+              "id": "41e07646-d60c-5fa0-a710-2fdacc4ba03b",
+              "slug": "math-g3-u1-t2",
+              "chapter_id": "d20a06d4-76a4-5dbf-801d-dccbe322a8f8",
+              "reihenfolge": 2,
+              "week": 3,
+              "domain": "N",
+              "title": {
+                "ar": "الجمع والطرح في نطاق الأعداد من 0 إلى 999",
+                "fr": "Addition et soustraction pour les nombres de 0 à 999"
+              }
+            },
+            {
+              "id": "676b1c39-b45e-5511-aaeb-c7bfeeda4f58",
+              "slug": "math-g3-u1-t3",
+              "chapter_id": "d20a06d4-76a4-5dbf-801d-dccbe322a8f8",
+              "reihenfolge": 3,
+              "week": 4,
+              "domain": "G",
+              "title": {
+                "ar": "الأشكال الهندسية: التوازي والتعامد",
+                "fr": "Figures géométriques : parallélisme et perpendicularité"
+              }
+            },
+            {
+              "id": "a43a522a-e563-5713-806b-1694ce834d4a",
+              "slug": "math-g3-u1-t4",
+              "chapter_id": "d20a06d4-76a4-5dbf-801d-dccbe322a8f8",
+              "reihenfolge": 4,
+              "week": 5,
+              "domain": "N",
+              "title": {
+                "ar": "الضرب في عدد مكون من رقم واحد في نطاق الأعداد من 0 إلى 999",
+                "fr": "Multiplication par un nombre à un chiffre pour les nombres de 0 à 999"
+              }
+            }
+          ]
+        },
+        {
+          "id": "baf161dc-6751-5c0c-b15e-d6c89b7568b8",
+          "slug": "math-g3-u2",
+          "grade_id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 2,
+          "semester": 1,
+          "review_week": 11,
+          "label": {
+            "ar": "الوحدة 2",
+            "fr": "Unité 2"
+          },
+          "title": {
+            "ar": "الأعداد حتى 9999 والزوايا",
+            "fr": "Les nombres jusqu'à 9999 et les angles"
+          },
+          "topics": [
+            {
+              "id": "8d9ad003-c6a9-5411-a818-68c9b63c93d8",
+              "slug": "math-g3-u2-t1",
+              "chapter_id": "baf161dc-6751-5c0c-b15e-d6c89b7568b8",
+              "reihenfolge": 1,
+              "week": 7,
+              "domain": "M",
+              "title": {
+                "ar": "قياس الأطوال (المتر، أجزاء المتر)",
+                "fr": "Mesurer des longueurs (le mètre et ses sous-multiples)"
+              }
+            },
+            {
+              "id": "16532b35-6070-5f94-9744-7446458d0548",
+              "slug": "math-g3-u2-t2",
+              "chapter_id": "baf161dc-6751-5c0c-b15e-d6c89b7568b8",
+              "reihenfolge": 2,
+              "week": 8,
+              "domain": "N",
+              "title": {
+                "ar": "الأعداد من 0 إلى 9999: قراءة وكتابة ومقارنة وترتيبا",
+                "fr": "Les nombres de 0 à 9999 : lecture, écriture, comparaison et rangement"
+              }
+            },
+            {
+              "id": "2a79ed79-291d-552a-9a4e-41ba25462a2b",
+              "slug": "math-g3-u2-t3",
+              "chapter_id": "baf161dc-6751-5c0c-b15e-d6c89b7568b8",
+              "reihenfolge": 3,
+              "week": 9,
+              "domain": "G",
+              "title": {
+                "ar": "الزوايا",
+                "fr": "Les angles"
+              }
+            },
+            {
+              "id": "082e552c-0083-5a3f-ba63-7530105b9ed2",
+              "slug": "math-g3-u2-t4",
+              "chapter_id": "baf161dc-6751-5c0c-b15e-d6c89b7568b8",
+              "reihenfolge": 4,
+              "week": 10,
+              "domain": "N",
+              "title": {
+                "ar": "الجمع في نطاق الأعداد من 0 إلى 9999: التقنية الاعتيادية",
+                "fr": "Addition pour les nombres de 0 à 9999 : la technique usuelle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "84d5f3dd-91d1-59c0-9532-d488de496ef4",
+          "slug": "math-g3-u3",
+          "grade_id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 3,
+          "semester": 1,
+          "review_week": 16,
+          "label": {
+            "ar": "الوحدة 3",
+            "fr": "Unité 3"
+          },
+          "title": {
+            "ar": "الطرح والضرب والمحيط",
+            "fr": "Soustraction, multiplication et périmètre"
+          },
+          "topics": [
+            {
+              "id": "8df3adb0-c816-5fab-b9c0-1c374b200c88",
+              "slug": "math-g3-u3-t1",
+              "chapter_id": "84d5f3dd-91d1-59c0-9532-d488de496ef4",
+              "reihenfolge": 1,
+              "week": 12,
+              "domain": "N",
+              "title": {
+                "ar": "الطرح في نطاق الأعداد من 0 إلى 9999: التقنية الاعتيادية",
+                "fr": "Soustraction pour les nombres de 0 à 9999 : la technique usuelle"
+              }
+            },
+            {
+              "id": "3dfc58e9-dfc8-584d-bf94-e2ffb6f4d1c3",
+              "slug": "math-g3-u3-t2",
+              "chapter_id": "84d5f3dd-91d1-59c0-9532-d488de496ef4",
+              "reihenfolge": 2,
+              "week": 13,
+              "domain": "N",
+              "title": {
+                "ar": "الضرب في عدد مكون من رقمين في نطاق الأعداد من 0 إلى 9999",
+                "fr": "Multiplication par un nombre à deux chiffres pour les nombres de 0 à 9999"
+              }
+            },
+            {
+              "id": "bb73daf4-bc66-579d-b0d6-393a57072d63",
+              "slug": "math-g3-u3-t3",
+              "chapter_id": "84d5f3dd-91d1-59c0-9532-d488de496ef4",
+              "reihenfolge": 3,
+              "week": 14,
+              "domain": "M",
+              "title": {
+                "ar": "قياس الأطوال (المتر، مضاعفاته وأجزاؤه)",
+                "fr": "Mesurer des longueurs (le mètre, ses multiples et sous-multiples)"
+              }
+            },
+            {
+              "id": "ec9ce970-4c2e-5736-9b18-3c2a43089ca3",
+              "slug": "math-g3-u3-t4",
+              "chapter_id": "84d5f3dd-91d1-59c0-9532-d488de496ef4",
+              "reihenfolge": 4,
+              "week": 15,
+              "domain": "G",
+              "title": {
+                "ar": "محيط المربع والمستطيل والمثلث",
+                "fr": "Périmètre du carré, du rectangle et du triangle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "73a4e29a-8aa7-5299-91e5-4b3b5b656b3c",
+          "slug": "math-g3-u4",
+          "grade_id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 4,
+          "semester": 2,
+          "review_week": 22,
+          "label": {
+            "ar": "الوحدة 4",
+            "fr": "Unité 4"
+          },
+          "title": {
+            "ar": "القسمة والأعداد الكسرية",
+            "fr": "La division et les nombres fractionnaires"
+          },
+          "topics": [
+            {
+              "id": "99dc268b-5af0-563a-aa7f-fd8a3c030c07",
+              "slug": "math-g3-u4-t1",
+              "chapter_id": "73a4e29a-8aa7-5299-91e5-4b3b5b656b3c",
+              "reihenfolge": 1,
+              "week": 18,
+              "domain": "N",
+              "title": {
+                "ar": "القسمة: تقديم",
+                "fr": "La division : introduction"
+              }
+            },
+            {
+              "id": "cd6f19fa-7810-500d-a71f-4b434aaf7c86",
+              "slug": "math-g3-u4-t2",
+              "chapter_id": "73a4e29a-8aa7-5299-91e5-4b3b5b656b3c",
+              "reihenfolge": 2,
+              "week": 19,
+              "domain": "N",
+              "title": {
+                "ar": "القسمة: حساب الخارج المضبوط",
+                "fr": "La division : calculer le quotient exact"
+              }
+            },
+            {
+              "id": "22c34289-045a-539c-9364-3b885a45f0dd",
+              "slug": "math-g3-u4-t3",
+              "chapter_id": "73a4e29a-8aa7-5299-91e5-4b3b5b656b3c",
+              "reihenfolge": 3,
+              "week": 20,
+              "domain": "N",
+              "title": {
+                "ar": "الأعداد الكسرية: تقديم، قراءة وكتابة",
+                "fr": "Les nombres fractionnaires : introduction, lecture et écriture"
+              }
+            },
+            {
+              "id": "18d952ac-2a14-5734-b741-91194ffef154",
+              "slug": "math-g3-u4-t4",
+              "chapter_id": "73a4e29a-8aa7-5299-91e5-4b3b5b656b3c",
+              "reihenfolge": 4,
+              "week": 21,
+              "domain": "N",
+              "title": {
+                "ar": "الأعداد الكسرية: مقارنة وترتيب",
+                "fr": "Les nombres fractionnaires : comparaison et rangement"
+              }
+            }
+          ]
+        },
+        {
+          "id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+          "slug": "math-g3-u5",
+          "grade_id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 5,
+          "semester": 2,
+          "review_week": 27,
+          "label": {
+            "ar": "الوحدة 5",
+            "fr": "Unité 5"
+          },
+          "title": {
+            "ar": "العمليات على الأعداد الكسرية والمثلثات",
+            "fr": "Opérations sur les nombres fractionnaires et triangles"
+          },
+          "topics": [
+            {
+              "id": "d27904a3-2f11-5a0d-9e28-c85443e90629",
+              "slug": "math-g3-u5-t1",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 1,
+              "week": 23,
+              "domain": "N",
+              "title": {
+                "ar": "جمع الأعداد الكسرية",
+                "fr": "Additionner des nombres fractionnaires"
+              }
+            },
+            {
+              "id": "14d41589-58b8-5601-9301-e7fd6f74e9f8",
+              "slug": "math-g3-u5-t2",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 2,
+              "week": 23,
+              "domain": "M",
+              "title": {
+                "ar": "قياس الكتل: الكيلوغرام وأجزاؤه",
+                "fr": "Mesurer des masses : le kilogramme et ses sous-multiples"
+              }
+            },
+            {
+              "id": "553cc46f-e94a-5f5c-8c11-a3c708d784a4",
+              "slug": "math-g3-u5-t3",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 3,
+              "week": 24,
+              "domain": "G",
+              "title": {
+                "ar": "التماثل المحوري",
+                "fr": "La symétrie axiale"
+              }
+            },
+            {
+              "id": "0af2eb70-d2b8-5432-b2e8-6b98d77feaf1",
+              "slug": "math-g3-u5-t4",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 4,
+              "week": 24,
+              "domain": "D",
+              "title": {
+                "ar": "تنظيم وعرض بيانات",
+                "fr": "Organiser et présenter des données"
+              }
+            },
+            {
+              "id": "01c6db32-67db-5e81-b3a6-8b26b9c2c144",
+              "slug": "math-g3-u5-t5",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 5,
+              "week": 25,
+              "domain": "N",
+              "title": {
+                "ar": "طرح الأعداد الكسرية",
+                "fr": "Soustraire des nombres fractionnaires"
+              }
+            },
+            {
+              "id": "7f5701de-7e5f-57ba-b1e0-11e543930c0b",
+              "slug": "math-g3-u5-t6",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 6,
+              "week": 25,
+              "domain": "M",
+              "title": {
+                "ar": "قياس الكتل: الكيلوغرام، أجزاؤه ومضاعفاته",
+                "fr": "Mesurer des masses : le kilogramme, ses sous-multiples et multiples"
+              }
+            },
+            {
+              "id": "5daa7709-172e-58b5-8ae3-99c74219ce9e",
+              "slug": "math-g3-u5-t7",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 7,
+              "week": 26,
+              "domain": "G",
+              "title": {
+                "ar": "المثلثات: تصنيف وإنشاء",
+                "fr": "Les triangles : classement et construction"
+              }
+            },
+            {
+              "id": "e90e2927-9030-5e37-98f7-562dd48bbfc2",
+              "slug": "math-g3-u5-t8",
+              "chapter_id": "38edc7f6-9da7-5547-ba70-b5c9939732a9",
+              "reihenfolge": 8,
+              "week": 26,
+              "domain": "M",
+              "title": {
+                "ar": "قياس الزمن",
+                "fr": "Mesurer le temps"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+          "slug": "math-g3-u6",
+          "grade_id": "51054b89-7928-50ae-a7d4-1e30a5f20bb2",
+          "subject_id": "19fbd9c6-cafa-5ffd-aab2-04951cb7e9fe",
+          "reihenfolge": 6,
+          "semester": 2,
+          "review_week": 32,
+          "label": {
+            "ar": "الوحدة 6",
+            "fr": "Unité 6"
+          },
+          "title": {
+            "ar": "القسمة والتناسبية والمجسمات",
+            "fr": "Division, proportionnalité et solides"
+          },
+          "topics": [
+            {
+              "id": "7e392478-aea1-58bb-b38c-3cba803cdcc0",
+              "slug": "math-g3-u6-t1",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 1,
+              "week": 28,
+              "domain": "G",
+              "title": {
+                "ar": "القرص والدائرة والكرة",
+                "fr": "Le disque, le cercle et la sphère"
+              }
+            },
+            {
+              "id": "908f2553-44c5-5c25-a618-98cdc77f55fe",
+              "slug": "math-g3-u6-t2",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 2,
+              "week": 28,
+              "domain": "D",
+              "title": {
+                "ar": "قراءة وتأويل بيانات",
+                "fr": "Lire et interpréter des données"
+              }
+            },
+            {
+              "id": "40bdc332-681c-5727-8a0f-50429172f32b",
+              "slug": "math-g3-u6-t3",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 3,
+              "week": 29,
+              "domain": "N",
+              "title": {
+                "ar": "القسمة على عدد من رقم واحد",
+                "fr": "Division par un nombre à un chiffre"
+              }
+            },
+            {
+              "id": "f1ee707c-1cbb-5b6a-b969-bb7bf9e0555d",
+              "slug": "math-g3-u6-t4",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 4,
+              "week": 29,
+              "domain": "M",
+              "title": {
+                "ar": "قياس السعة",
+                "fr": "Mesurer la capacité"
+              }
+            },
+            {
+              "id": "a48aeb5d-1ed8-5aab-80eb-71f92fe53a74",
+              "slug": "math-g3-u6-t5",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 5,
+              "week": 30,
+              "domain": "N",
+              "title": {
+                "ar": "نحو التناسبية: العلاقات العددية",
+                "fr": "Vers la proportionnalité : relations numériques"
+              }
+            },
+            {
+              "id": "74d4399a-43b8-5a05-9f68-a15122909e79",
+              "slug": "math-g3-u6-t6",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 6,
+              "week": 30,
+              "domain": "G",
+              "title": {
+                "ar": "المجسمات وخاصياتها",
+                "fr": "Les solides et leurs propriétés"
+              }
+            },
+            {
+              "id": "04ddb8c8-eeea-5ba7-94d0-0e0082e57333",
+              "slug": "math-g3-u6-t7",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 7,
+              "week": 31,
+              "domain": "N",
+              "title": {
+                "ar": "تقديم التناسبية: جدول أعداد متناسبة",
+                "fr": "Introduction à la proportionnalité : tableau de nombres proportionnels"
+              }
+            },
+            {
+              "id": "1bbaf935-601f-5d6c-8579-1b9da7cf96bd",
+              "slug": "math-g3-u6-t8",
+              "chapter_id": "ade0a8e5-ae64-5263-ba89-e84a8c33a1b4",
+              "reihenfolge": 8,
+              "week": 31,
+              "domain": "M",
+              "title": {
+                "ar": "قياس الأطوال والكتل والسعة",
+                "fr": "Mesurer des longueurs, des masses et des capacités"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

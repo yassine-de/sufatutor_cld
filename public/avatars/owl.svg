@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Owl">
+  <circle cx="60" cy="60" r="60" fill="#e6e0ff"/>
+  <polygon points="30,30 48,46 28,52" fill="#7a58c8"/>
+  <polygon points="90,30 72,46 92,52" fill="#7a58c8"/>
+  <ellipse cx="60" cy="68" rx="36" ry="38" fill="#8c6bd6"/>
+  <ellipse cx="60" cy="82" rx="20" ry="18" fill="#c9b8f2"/>
+  <circle cx="45" cy="58" r="14" fill="#fff"/><circle cx="75" cy="58" r="14" fill="#fff"/>
+  <circle cx="46" cy="59" r="6.5" fill="#1f2a44"/><circle cx="74" cy="59" r="6.5" fill="#1f2a44"/>
+  <circle cx="48" cy="56.5" r="2" fill="#fff"/><circle cx="76" cy="56.5" r="2" fill="#fff"/>
+  <polygon points="53,70 67,70 60,83" fill="#f5b342"/>
+</svg>

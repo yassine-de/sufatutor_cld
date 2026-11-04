@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Robot">
+  <circle cx="60" cy="60" r="60" fill="#dde8ff"/>
+  <line x1="60" y1="22" x2="60" y2="36" stroke="#5b6785" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="60" cy="20" r="5" fill="#f26a6a"/>
+  <rect x="28" y="36" width="64" height="54" rx="14" fill="#8fa8d8"/>
+  <rect x="20" y="54" width="8" height="18" rx="4" fill="#5b6785"/><rect x="92" y="54" width="8" height="18" rx="4" fill="#5b6785"/>
+  <circle cx="46" cy="58" r="9" fill="#fff"/><circle cx="74" cy="58" r="9" fill="#fff"/>
+  <circle cx="47" cy="59" r="4.5" fill="#1f2a44"/><circle cx="75" cy="59" r="4.5" fill="#1f2a44"/>
+  <circle cx="48.4" cy="57.6" r="1.4" fill="#fff"/><circle cx="76.4" cy="57.6" r="1.4" fill="#fff"/>
+  <rect x="42" y="74" width="36" height="9" rx="4.5" fill="#1f2a44"/>
+  <path d="M51 74 V83 M60 74 V83 M69 74 V83" stroke="#8fa8d8" stroke-width="2"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Lion">
+  <circle cx="60" cy="60" r="60" fill="#fff1b8"/>
+  <circle cx="60" cy="64" r="44" fill="#d98e2b"/>
+  <circle cx="38" cy="36" r="9" fill="#f5c768"/><circle cx="82" cy="36" r="9" fill="#f5c768"/>
+  <circle cx="60" cy="66" r="29" fill="#f5c768"/>
+  <ellipse cx="60" cy="78" rx="15" ry="11" fill="#fde7b2"/>
+  <circle cx="48" cy="60" r="4.5" fill="#1f2a44"/><circle cx="72" cy="60" r="4.5" fill="#1f2a44"/>
+  <circle cx="49.4" cy="58.6" r="1.5" fill="#fff"/><circle cx="73.4" cy="58.6" r="1.5" fill="#fff"/>
+  <polygon points="54,70 66,70 60,77" fill="#9c5a1c"/>
+  <path d="M60 77 Q54 85 48 80 M60 77 Q66 85 72 80" fill="none" stroke="#1f2a44" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

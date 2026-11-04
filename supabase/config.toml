@@ -1,0 +1,32 @@
+# Local Supabase stack (`npx supabase start`, needs Docker). Anything not listed uses CLI defaults.
+project_id = "ta3lim"
+
+[api]
+port = 54321
+schemas = ["public", "graphql_public"]
+
+[db]
+port = 54322
+major_version = 17
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql", "./demo-content.sql"]   # demo-content.sql: local development only
+
+[auth]
+site_url = "http://127.0.0.1:3000"
+additional_redirect_urls = ["http://localhost:3000"]
+
+# Phone login: the parent gets a 6-digit code by SMS (KONZEPT.md §9).
+[auth.sms]
+enable_signup = true
+enable_confirmations = true
+template = "TA3LIM: {{ .Code }}"
+max_frequency = "60s"
+
+# Local development: these numbers skip the SMS provider and always accept the fixed code.
+# Remove for any hosted project. Real delivery needs a provider ([auth.sms.twilio] etc.,
+# or a hosted project's Authentication > Providers > Phone); see README.
+[auth.sms.test_otp]
+212600000001 = "123456"
+212600000002 = "123456"
