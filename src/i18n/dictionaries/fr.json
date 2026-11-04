@@ -4,11 +4,177 @@
     "description": "Plateforme d'apprentissage pour les enfants, selon le programme marocain"
   },
   "home": {
-    "headline": "Apprendre avec plaisir, pas à pas",
-    "lead": "Des vidéos et des exercices interactifs selon le programme marocain, et un espace parents pour suivre les progrès.",
-    "start": "Commencer",
-    "gradesTitle": "Niveaux",
-    "subjectsTitle": "Matières"
+    "nav": {
+      "subjects": "Matières",
+      "program": "Programme",
+      "parents": "Parents",
+      "faq": "FAQ",
+      "signIn": "Se connecter",
+      "cta": "Essai gratuit"
+    },
+    "eyebrow": "Programme officiel marocain · Primaire",
+    "headlineStart": "Apprendre ",
+    "headlineAccent": "avec plaisir",
+    "headlineEnd": ", pas à pas",
+    "lead": "Des leçons en vidéo, des exercices interactifs et des étoiles à gagner, en arabe ou en français. Et pour vous, un tableau de bord qui montre chaque progrès.",
+    "start": "Commencer gratuitement",
+    "secondary": "Voir le programme",
+    "reassure": [
+      "Gratuit pendant la phase pilote",
+      "Connexion par SMS, sans mot de passe",
+      "Téléphone, tablette ou ordinateur"
+    ],
+    "heroCard": {
+      "child": "Sara",
+      "today": "Aujourd'hui",
+      "minutes": "18 min d'apprentissage",
+      "unit": "Unité 1",
+      "lesson": "Les nombres de 1 à 5",
+      "progress": "3 leçons sur 4",
+      "done": "Bravo, leçon terminée !"
+    },
+    "trust": {
+      "source": "Basé sur le programme officiel du primaire",
+      "sourceDetail": "Direction des curricula, 2021",
+      "items": [
+        "96 leçons de maths",
+        "De la 1re à la 3e année",
+        "Arabe et français",
+        "Photos privées"
+      ]
+    },
+    "whyTitle": "Pourquoi les parents choisissent TA3LIM",
+    "whyLead": "Tout ce qu'il faut pour que votre enfant progresse, et pour que vous le voyiez.",
+    "why": {
+      "program": {
+        "title": "Exactement le programme de l'école",
+        "text": "Les unités et les leçons du programme officiel, dans l'ordre de l'année scolaire. Votre enfant révise ce qu'il voit en classe."
+      },
+      "bilingual": {
+        "title": "En arabe ou en français",
+        "text": "Vous choisissez la langue d'apprentissage pour chaque enfant."
+      },
+      "stars": {
+        "title": "Motivé par les étoiles",
+        "text": "Jusqu'à 3 étoiles par leçon. Une nouvelle tentative ne fait jamais perdre d'étoiles."
+      },
+      "parents": {
+        "title": "Vous voyez chaque progrès",
+        "text": "Temps d'apprentissage, leçons terminées et bonnes réponses, enfant par enfant."
+      },
+      "safe": {
+        "title": "Sûr et privé",
+        "text": "Pas de compte pour l'enfant, des photos privées et une connexion parent par SMS."
+      },
+      "devices": {
+        "title": "Sur tous les écrans",
+        "text": "Téléphone, tablette ou ordinateur, directement dans le navigateur. Rien à installer."
+      }
+    },
+    "programTitle": "Tout le programme, leçon par leçon",
+    "programLead": "Choisissez une année et découvrez ce que votre enfant va apprendre.",
+    "lessonsFew": "{n} leçons",
+    "lessonsMany": "{n} leçons",
+    "semester": "Semestre {n}",
+    "available": "Disponible",
+    "soon": "Bientôt",
+    "howTitle": "Une leçon, trois étapes",
+    "howLead": "Courtes, claires et motivantes : des leçons pensées pour les enfants de 6 à 9 ans.",
+    "steps": [
+      {
+        "title": "Regarder",
+        "text": "Une courte vidéo explique la notion simplement, avec des exemples du quotidien."
+      },
+      {
+        "title": "S'entraîner",
+        "text": "Des exercices interactifs : choisir, compléter, associer. La correction est immédiate."
+      },
+      {
+        "title": "Gagner des étoiles",
+        "text": "Jusqu'à 3 étoiles par leçon. Chaque réussite donne envie de continuer."
+      }
+    ],
+    "lessonTitle": "Une leçon qui ressemble à un jeu",
+    "lessonLead": "Chaque leçon suit le programme officiel et se termine par des exercices qui récompensent l'effort.",
+    "lessonPoints": [
+      "Trois types d'exercices : choix multiple, nombre à saisir, associer",
+      "Une correction immédiate et bienveillante",
+      "Les étoiles restent acquises : une nouvelle tentative n'en fait jamais perdre"
+    ],
+    "mock": {
+      "unit": "Unité 1",
+      "lesson": "Comparer et ranger les nombres de 1 à 5",
+      "video": "La vidéo",
+      "question": "Quel nombre est le plus grand ?",
+      "correct": "Bravo !",
+      "stars": "Tes étoiles",
+      "childA": "Sara",
+      "childB": "Adam"
+    },
+    "parentsTitle": "Vous voyez tout, en un coup d'œil",
+    "parentsLead": "Un tableau de bord simple pour accompagner chaque enfant, sans devoir rester à côté de lui.",
+    "parentsPoints": [
+      "Le temps d'apprentissage, jour après jour",
+      "Les leçons terminées, les étoiles et les bonnes réponses",
+      "Jusqu'à 3 enfants, chacun avec son profil",
+      "Des photos privées, visibles uniquement par la famille"
+    ],
+    "dash": {
+      "title": "Progression",
+      "stars": "Étoiles",
+      "lessons": "Leçons terminées",
+      "correct": "Bonnes réponses",
+      "week": "Minutes d'apprentissage cette semaine"
+    },
+    "avatarsTitle": "Chaque enfant a son personnage",
+    "avatarsLead": "Huit personnages au choix, ou une photo de l'enfant, conservée en privé.",
+    "langTitle": "En arabe ou en français",
+    "langLead": "Chaque enfant apprend dans sa langue. L'interface change de langue en un clic, de droite à gauche comme de gauche à droite.",
+    "offer": {
+      "badge": "Phase pilote",
+      "title": "Tout est gratuit pendant la phase pilote",
+      "price": "0 MAD",
+      "period": "pendant la phase pilote",
+      "features": [
+        "Toutes les leçons de maths, de la 1re à la 3e année",
+        "Jusqu'à 3 profils enfants",
+        "Le tableau de bord pour les parents",
+        "En arabe ou en français"
+      ],
+      "cta": "Créer mon compte",
+      "note": "Sans carte bancaire · Connexion par SMS"
+    },
+    "faqTitle": "Les questions des parents",
+    "faq": [
+      {
+        "q": "Pour quel âge ?",
+        "a": "Pour les élèves de la 1re à la 3e année du primaire, soit environ 6 à 9 ans. D'autres niveaux suivront."
+      },
+      {
+        "q": "Le contenu suit-il le programme de l'école ?",
+        "a": "Oui. Les leçons reprennent les unités et les leçons du programme officiel du primaire marocain (Direction des curricula, 2021), dans l'ordre de l'année scolaire."
+      },
+      {
+        "q": "Combien ça coûte ?",
+        "a": "TA3LIM est gratuit pendant la phase pilote."
+      },
+      {
+        "q": "Sur quels appareils ?",
+        "a": "Sur téléphone, tablette et ordinateur, directement dans le navigateur. Rien à installer."
+      },
+      {
+        "q": "Mon enfant a-t-il besoin d'un compte ?",
+        "a": "Non. Le parent se connecte avec son numéro de téléphone et crée jusqu'à 3 profils enfants. L'enfant choisit simplement son profil."
+      },
+      {
+        "q": "Que devient la photo de mon enfant ?",
+        "a": "Elle est stockée en privé et n'est visible que par votre famille. Vous pouvez la retirer à tout moment."
+      }
+    ],
+    "ctaTitle": "Prêt pour ta première étoile ?",
+    "ctaLead": "Créez votre compte en une minute avec votre numéro de téléphone. Gratuit pendant la phase pilote.",
+    "footerTagline": "Apprendre selon le programme marocain, avec plaisir.",
+    "rights": "Tous droits réservés."
   },
   "levels": {
     "primaire": "Primaire",

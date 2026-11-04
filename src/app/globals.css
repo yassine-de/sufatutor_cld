@@ -9,6 +9,15 @@
   --muted: #5b6785;
   --card: #ffffff;
   --line: #e6dfcf;
+  /* Accents for the start page: saffron, terracotta and mint, plus the hero gradient. */
+  --sun: #f5a623;
+  --sun-soft: #fff1d6;
+  --coral: #e2603a;
+  --coral-soft: #ffe5dc;
+  --mint: #13917b;
+  --mint-soft: #d9f4ec;
+  --hero-from: #2f6fed;
+  --hero-to: #17a08f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +29,14 @@
     --muted: #a5afc9;
     --card: #1a2238;
     --line: #2b3554;
+    --sun: #ffc44d;
+    --sun-soft: #3a2f18;
+    --coral: #ff8a66;
+    --coral-soft: #3d2520;
+    --mint: #3fd0b0;
+    --mint-soft: #143a34;
+    --hero-from: #1f3f9e;
+    --hero-to: #0e6b62;
   }
 }
 
@@ -31,7 +48,42 @@
   --color-muted: var(--muted);
   --color-card: var(--card);
   --color-line: var(--line);
+  --color-sun: var(--sun);
+  --color-sun-soft: var(--sun-soft);
+  --color-coral: var(--coral);
+  --color-coral-soft: var(--coral-soft);
+  --color-mint: var(--mint);
+  --color-mint-soft: var(--mint-soft);
+  --color-hero-from: var(--hero-from);
+  --color-hero-to: var(--hero-to);
   --font-sans: var(--font-cairo), system-ui, sans-serif;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 8s ease-in-out -2s infinite;
+  --animate-rise: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Sections fade up as they scroll into view, where the browser supports scroll-driven animations. */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gentle bobbing for the mascot and the hero badges. */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 body {
@@ -48,4 +100,5 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
 }
