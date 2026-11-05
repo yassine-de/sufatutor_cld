@@ -64,8 +64,9 @@
   --animate-drift: drift 9s ease-in-out infinite;
   --animate-wiggle: wiggle 0.6s ease-in-out;
   --animate-shake: shake 0.4s ease-in-out;
-  --animate-marquee: marquee 60s linear infinite;
-  --animate-marquee-reverse: marquee 70s linear infinite reverse;
+  /* Each row holds ~48 lesson titles (about 15 000 px), so ~6 minutes per loop keeps it near 40 px/s, slow enough to read. */
+  --animate-marquee: marquee 360s linear infinite;
+  --animate-marquee-reverse: marquee 380s linear infinite reverse;
   --animate-burst: burst 0.9s ease-out forwards;
   --animate-typing: typing 1s ease-in-out infinite;
 }

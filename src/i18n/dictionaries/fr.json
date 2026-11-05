@@ -161,7 +161,16 @@
       "stars": "Étoiles",
       "lessons": "Leçons terminées",
       "correct": "Bonnes réponses",
-      "week": "Minutes d'apprentissage cette semaine"
+      "week": "Minutes d'apprentissage cette semaine",
+      "days": [
+        "Lun",
+        "Mar",
+        "Mer",
+        "Jeu",
+        "Ven",
+        "Sam",
+        "Dim"
+      ]
     },
     "avatarsTitle": "Chaque enfant a son personnage",
     "avatarsLead": "Huit personnages au choix, ou une photo de l'enfant, conservée en privé.",

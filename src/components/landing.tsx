@@ -120,14 +120,16 @@ export function DashboardMockup({ mock, dash }: { mock: Mock; dash: Dash }) {
       </div>
 
       <p className="mt-5 text-sm font-bold text-muted">{dash.week}</p>
-      <div className="mt-3 flex h-28 items-end gap-2">
+      {/* Columns are bottom-aligned, so the day names line up under bars of any height. */}
+      <div className="mt-3 flex items-end gap-2">
         {WEEK.map((m, i) => (
-          <div key={i} className="flex flex-1 flex-col items-center gap-1">
+          <div key={i} className="flex min-w-0 flex-1 flex-col items-center gap-1">
             <span className="text-[10px] font-bold text-muted">{m}</span>
             <span
               className={`grow-on-view w-full rounded-t-lg ${i === WEEK.length - 2 ? "bg-sun" : "bg-brand/70"}`}
               style={{ height: `${(m / max) * 80}px` }}
             />
+            <span className={`truncate text-[10px] font-bold ${i === WEEK.length - 2 ? "text-foreground" : "text-muted"}`}>{dash.days[i]}</span>
           </div>
         ))}
       </div>
