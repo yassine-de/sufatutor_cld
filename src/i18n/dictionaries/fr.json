@@ -4,11 +4,214 @@
     "description": "Plateforme d'apprentissage pour les enfants, selon le programme marocain"
   },
   "home": {
-    "headline": "Apprendre avec plaisir, pas à pas",
-    "lead": "Des vidéos et des exercices interactifs selon le programme marocain, et un espace parents pour suivre les progrès.",
-    "start": "Commencer",
-    "gradesTitle": "Niveaux",
-    "subjectsTitle": "Matières"
+    "nav": {
+      "program": "Programme",
+      "how": "Comment ça marche",
+      "parents": "Parents",
+      "faq": "FAQ",
+      "subjects": "Matières",
+      "signIn": "Se connecter",
+      "cta": "Essai gratuit"
+    },
+    "eyebrow": "Programme officiel marocain · Primaire",
+    "headlineStart": "Apprendre devient ",
+    "headlineAccent": "un jeu",
+    "headlineEnd": " d'enfant",
+    "lead": "Des leçons courtes, des exercices interactifs et des étoiles à gagner, selon le programme marocain, en arabe ou en français.",
+    "start": "Commencer gratuitement",
+    "secondary": "Essayer un exercice",
+    "reassure": [
+      "Gratuit pendant la phase pilote",
+      "Sans mot de passe",
+      "Téléphone, tablette ou ordinateur"
+    ],
+    "tiko": {
+      "name": "Tiko",
+      "hello": "Salam ! Moi, c'est Tiko.",
+      "ask": "On essaie un exercice ensemble ?"
+    },
+    "quiz": {
+      "title": "Essaie maintenant !",
+      "lead": "Quatre petites questions de 1re et 2e année. Clique sur la bonne réponse.",
+      "questions": [
+        {
+          "q": "Combien font 2 + 3 ?",
+          "options": [
+            4,
+            5,
+            6
+          ],
+          "answer": 5
+        },
+        {
+          "q": "Quel nombre est le plus grand ?",
+          "options": [
+            7,
+            3,
+            5
+          ],
+          "answer": 7
+        },
+        {
+          "q": "Combien font 5 − 1 ?",
+          "options": [
+            3,
+            4,
+            6
+          ],
+          "answer": 4
+        },
+        {
+          "q": "Combien de côtés a un triangle ?",
+          "options": [
+            2,
+            3,
+            4
+          ],
+          "answer": 3
+        }
+      ],
+      "question": "Question {n} sur {total}",
+      "correct": "Bravo ! Tu as gagné une étoile.",
+      "wrong": "Presque ! Essaie encore.",
+      "next": "Question suivante",
+      "stars": "Tes étoiles",
+      "done": "Tu as tout réussi ! Crée ton compte pour continuer.",
+      "again": "Recommencer"
+    },
+    "subjectsTitle": "Choisis ta matière",
+    "subjectsLead": "Le programme du primaire, leçon par leçon, comme à l'école.",
+    "available": "Disponible",
+    "soon": "Bientôt",
+    "mathMeta": "96 leçons · 1re à 3e année",
+    "soonMeta": "En préparation",
+    "stats": [
+      {
+        "value": 96,
+        "label": "leçons de maths"
+      },
+      {
+        "value": 18,
+        "label": "unités du programme"
+      },
+      {
+        "value": 3,
+        "label": "niveaux du primaire"
+      },
+      {
+        "value": 2,
+        "label": "langues : arabe et français"
+      }
+    ],
+    "source": "Basé sur le programme officiel du primaire · Direction des curricula, 2021",
+    "howTitle": "Comment ça marche ?",
+    "howLead": "Trois étapes par leçon : courtes, claires et motivantes.",
+    "steps": [
+      {
+        "title": "Regarder",
+        "text": "Une courte vidéo explique la notion simplement, avec des exemples du quotidien."
+      },
+      {
+        "title": "S'entraîner",
+        "text": "Des exercices interactifs : choisir, compléter, associer. La correction est immédiate."
+      },
+      {
+        "title": "Gagner des étoiles",
+        "text": "Jusqu'à 3 étoiles par leçon. Une nouvelle tentative ne fait jamais perdre d'étoiles."
+      }
+    ],
+    "ai": {
+      "badge": "Bientôt",
+      "title": "Tiko, ton prof robot",
+      "lead": "Bientôt, ton enfant pourra poser ses questions à Tiko. Il répondra pas à pas, sans donner la réponse toute faite.",
+      "kid": "Pourquoi 7 est plus grand que 5 ?",
+      "tiko1": "Bonne question ! Comptons ensemble : 5, 6, 7… Il faut avancer encore pour arriver à 7.",
+      "tiko2": "Donc 7 vient après 5 : il est plus grand ! ⭐",
+      "points": [
+        "Il explique pas à pas",
+        "Il donne des indices plutôt que la réponse",
+        "En arabe ou en français"
+      ]
+    },
+    "programTitle": "Tout le programme, leçon par leçon",
+    "programLead": "Choisissez une année et découvrez ce que votre enfant va apprendre.",
+    "lessonsFew": "{n} leçons",
+    "lessonsMany": "{n} leçons",
+    "semester": "Semestre {n}",
+    "mock": {
+      "unit": "Unité 1",
+      "lesson": "Comparer et ranger les nombres de 1 à 5",
+      "video": "La vidéo",
+      "question": "Quel nombre est le plus grand ?",
+      "correct": "Bravo !",
+      "stars": "Tes étoiles",
+      "childA": "Sara",
+      "childB": "Adam"
+    },
+    "parentsTitle": "Les parents voient chaque progrès",
+    "parentsLead": "Un tableau de bord simple pour accompagner chaque enfant, sans devoir rester à côté de lui.",
+    "parentsPoints": [
+      "Le temps d'apprentissage, jour après jour",
+      "Les leçons terminées, les étoiles et les bonnes réponses",
+      "Jusqu'à 3 enfants, chacun avec son profil",
+      "Pas de compte pour l'enfant, connexion parent par SMS"
+    ],
+    "dash": {
+      "title": "Progression",
+      "stars": "Étoiles",
+      "lessons": "Leçons terminées",
+      "correct": "Bonnes réponses",
+      "week": "Minutes d'apprentissage cette semaine"
+    },
+    "avatarsTitle": "Chaque enfant a son personnage",
+    "avatarsLead": "Huit personnages au choix, ou une photo de l'enfant, conservée en privé.",
+    "langTitle": "En arabe ou en français",
+    "langLead": "Chaque enfant apprend dans sa langue. L'interface change de langue en un clic, de droite à gauche comme de gauche à droite.",
+    "offer": {
+      "badge": "Phase pilote",
+      "title": "Tout est gratuit pendant la phase pilote",
+      "price": "0 MAD",
+      "period": "pendant la phase pilote",
+      "features": [
+        "Toutes les leçons de maths, de la 1re à la 3e année",
+        "Jusqu'à 3 profils enfants",
+        "Le tableau de bord pour les parents",
+        "En arabe ou en français"
+      ],
+      "cta": "Créer mon compte",
+      "note": "Sans carte bancaire · Connexion par SMS"
+    },
+    "faqTitle": "Les questions des parents",
+    "faq": [
+      {
+        "q": "Pour quel âge ?",
+        "a": "Pour les élèves de la 1re à la 3e année du primaire, soit environ 6 à 9 ans. D'autres niveaux suivront."
+      },
+      {
+        "q": "Le contenu suit-il le programme de l'école ?",
+        "a": "Oui. Les leçons reprennent les unités et les leçons du programme officiel du primaire marocain (Direction des curricula, 2021), dans l'ordre de l'année scolaire."
+      },
+      {
+        "q": "Combien ça coûte ?",
+        "a": "TA3LIM est gratuit pendant la phase pilote."
+      },
+      {
+        "q": "Tiko répond-il déjà aux questions ?",
+        "a": "Pas encore. Tiko est notre mascotte ; le prof robot qui répond aux questions arrive bientôt."
+      },
+      {
+        "q": "Sur quels appareils ?",
+        "a": "Sur téléphone, tablette et ordinateur, directement dans le navigateur. Rien à installer."
+      },
+      {
+        "q": "Mon enfant a-t-il besoin d'un compte ?",
+        "a": "Non. Le parent se connecte avec son numéro de téléphone et crée jusqu'à 3 profils enfants. L'enfant choisit simplement son profil."
+      }
+    ],
+    "ctaTitle": "Prêt pour ta première étoile ?",
+    "ctaLead": "Créez votre compte en une minute avec votre numéro de téléphone. Gratuit pendant la phase pilote.",
+    "footerTagline": "Apprendre selon le programme marocain, avec plaisir.",
+    "rights": "Tous droits réservés."
   },
   "levels": {
     "primaire": "Primaire",
