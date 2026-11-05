@@ -5,81 +5,107 @@
   },
   "home": {
     "nav": {
-      "subjects": "Matières",
       "program": "Programme",
+      "how": "Comment ça marche",
       "parents": "Parents",
       "faq": "FAQ",
+      "subjects": "Matières",
       "signIn": "Se connecter",
       "cta": "Essai gratuit"
     },
     "eyebrow": "Programme officiel marocain · Primaire",
-    "headlineStart": "Apprendre ",
-    "headlineAccent": "avec plaisir",
-    "headlineEnd": ", pas à pas",
-    "lead": "Des leçons en vidéo, des exercices interactifs et des étoiles à gagner, en arabe ou en français. Et pour vous, un tableau de bord qui montre chaque progrès.",
+    "headlineStart": "Apprendre devient ",
+    "headlineAccent": "un jeu",
+    "headlineEnd": " d'enfant",
+    "lead": "Des leçons courtes, des exercices interactifs et des étoiles à gagner, selon le programme marocain, en arabe ou en français.",
     "start": "Commencer gratuitement",
-    "secondary": "Voir le programme",
+    "secondary": "Essayer un exercice",
     "reassure": [
       "Gratuit pendant la phase pilote",
-      "Connexion par SMS, sans mot de passe",
+      "Sans mot de passe",
       "Téléphone, tablette ou ordinateur"
     ],
-    "heroCard": {
-      "child": "Sara",
-      "today": "Aujourd'hui",
-      "minutes": "18 min d'apprentissage",
-      "unit": "Unité 1",
-      "lesson": "Les nombres de 1 à 5",
-      "progress": "3 leçons sur 4",
-      "done": "Bravo, leçon terminée !"
+    "tiko": {
+      "name": "Tiko",
+      "hello": "Salam ! Moi, c'est Tiko.",
+      "ask": "On essaie un exercice ensemble ?"
     },
-    "trust": {
-      "source": "Basé sur le programme officiel du primaire",
-      "sourceDetail": "Direction des curricula, 2021",
-      "items": [
-        "96 leçons de maths",
-        "De la 1re à la 3e année",
-        "Arabe et français",
-        "Photos privées"
-      ]
+    "quiz": {
+      "title": "Essaie maintenant !",
+      "lead": "Quatre petites questions de 1re et 2e année. Clique sur la bonne réponse.",
+      "questions": [
+        {
+          "q": "Combien font 2 + 3 ?",
+          "options": [
+            4,
+            5,
+            6
+          ],
+          "answer": 5
+        },
+        {
+          "q": "Quel nombre est le plus grand ?",
+          "options": [
+            7,
+            3,
+            5
+          ],
+          "answer": 7
+        },
+        {
+          "q": "Combien font 5 − 1 ?",
+          "options": [
+            3,
+            4,
+            6
+          ],
+          "answer": 4
+        },
+        {
+          "q": "Combien de côtés a un triangle ?",
+          "options": [
+            2,
+            3,
+            4
+          ],
+          "answer": 3
+        }
+      ],
+      "question": "Question {n} sur {total}",
+      "correct": "Bravo ! Tu as gagné une étoile.",
+      "wrong": "Presque ! Essaie encore.",
+      "next": "Question suivante",
+      "stars": "Tes étoiles",
+      "done": "Tu as tout réussi ! Crée ton compte pour continuer.",
+      "again": "Recommencer"
     },
-    "whyTitle": "Pourquoi les parents choisissent TA3LIM",
-    "whyLead": "Tout ce qu'il faut pour que votre enfant progresse, et pour que vous le voyiez.",
-    "why": {
-      "program": {
-        "title": "Exactement le programme de l'école",
-        "text": "Les unités et les leçons du programme officiel, dans l'ordre de l'année scolaire. Votre enfant révise ce qu'il voit en classe."
-      },
-      "bilingual": {
-        "title": "En arabe ou en français",
-        "text": "Vous choisissez la langue d'apprentissage pour chaque enfant."
-      },
-      "stars": {
-        "title": "Motivé par les étoiles",
-        "text": "Jusqu'à 3 étoiles par leçon. Une nouvelle tentative ne fait jamais perdre d'étoiles."
-      },
-      "parents": {
-        "title": "Vous voyez chaque progrès",
-        "text": "Temps d'apprentissage, leçons terminées et bonnes réponses, enfant par enfant."
-      },
-      "safe": {
-        "title": "Sûr et privé",
-        "text": "Pas de compte pour l'enfant, des photos privées et une connexion parent par SMS."
-      },
-      "devices": {
-        "title": "Sur tous les écrans",
-        "text": "Téléphone, tablette ou ordinateur, directement dans le navigateur. Rien à installer."
-      }
-    },
-    "programTitle": "Tout le programme, leçon par leçon",
-    "programLead": "Choisissez une année et découvrez ce que votre enfant va apprendre.",
-    "lessonsFew": "{n} leçons",
-    "lessonsMany": "{n} leçons",
-    "semester": "Semestre {n}",
+    "subjectsTitle": "Choisis ta matière",
+    "subjectsLead": "Le programme du primaire, leçon par leçon, comme à l'école.",
     "available": "Disponible",
     "soon": "Bientôt",
-    "howTitle": "Une leçon, trois étapes",
-    "howLead": "Courtes, claires et motivantes : des leçons pensées pour les enfants de 6 à 9 ans.",
+    "mathMeta": "96 leçons · 1re à 3e année",
+    "soonMeta": "En préparation",
+    "stats": [
+      {
+        "value": 96,
+        "label": "leçons de maths"
+      },
+      {
+        "value": 18,
+        "label": "unités du programme"
+      },
+      {
+        "value": 3,
+        "label": "niveaux du primaire"
+      },
+      {
+        "value": 2,
+        "label": "langues : arabe et français"
+      }
+    ],
+    "source": "Basé sur le programme officiel du primaire · Direction des curricula, 2021",
+    "howTitle": "Comment ça marche ?",
+    "howLead": "Trois étapes par leçon : courtes, claires et motivantes.",
     "steps": [
       {
         "title": "Regarder",
@@ -91,16 +117,27 @@
       },
       {
         "title": "Gagner des étoiles",
-        "text": "Jusqu'à 3 étoiles par leçon. Chaque réussite donne envie de continuer."
+        "text": "Jusqu'à 3 étoiles par leçon. Une nouvelle tentative ne fait jamais perdre d'étoiles."
       }
     ],
-    "lessonTitle": "Une leçon qui ressemble à un jeu",
-    "lessonLead": "Chaque leçon suit le programme officiel et se termine par des exercices qui récompensent l'effort.",
-    "lessonPoints": [
-      "Trois types d'exercices : choix multiple, nombre à saisir, associer",
-      "Une correction immédiate et bienveillante",
-      "Les étoiles restent acquises : une nouvelle tentative n'en fait jamais perdre"
-    ],
+    "ai": {
+      "badge": "Bientôt",
+      "title": "Tiko, ton prof robot",
+      "lead": "Bientôt, ton enfant pourra poser ses questions à Tiko. Il répondra pas à pas, sans donner la réponse toute faite.",
+      "kid": "Pourquoi 7 est plus grand que 5 ?",
+      "tiko1": "Bonne question ! Comptons ensemble : 5, 6, 7… Il faut avancer encore pour arriver à 7.",
+      "tiko2": "Donc 7 vient après 5 : il est plus grand ! ⭐",
+      "points": [
+        "Il explique pas à pas",
+        "Il donne des indices plutôt que la réponse",
+        "En arabe ou en français"
+      ]
+    },
+    "programTitle": "Tout le programme, leçon par leçon",
+    "programLead": "Choisissez une année et découvrez ce que votre enfant va apprendre.",
+    "lessonsFew": "{n} leçons",
+    "lessonsMany": "{n} leçons",
+    "semester": "Semestre {n}",
     "mock": {
       "unit": "Unité 1",
       "lesson": "Comparer et ranger les nombres de 1 à 5",
@@ -111,13 +148,13 @@
       "childA": "Sara",
       "childB": "Adam"
     },
-    "parentsTitle": "Vous voyez tout, en un coup d'œil",
+    "parentsTitle": "Les parents voient chaque progrès",
     "parentsLead": "Un tableau de bord simple pour accompagner chaque enfant, sans devoir rester à côté de lui.",
     "parentsPoints": [
       "Le temps d'apprentissage, jour après jour",
       "Les leçons terminées, les étoiles et les bonnes réponses",
       "Jusqu'à 3 enfants, chacun avec son profil",
-      "Des photos privées, visibles uniquement par la famille"
+      "Pas de compte pour l'enfant, connexion parent par SMS"
     ],
     "dash": {
       "title": "Progression",
@@ -159,16 +196,16 @@
         "a": "TA3LIM est gratuit pendant la phase pilote."
       },
       {
+        "q": "Tiko répond-il déjà aux questions ?",
+        "a": "Pas encore. Tiko est notre mascotte ; le prof robot qui répond aux questions arrive bientôt."
+      },
+      {
         "q": "Sur quels appareils ?",
         "a": "Sur téléphone, tablette et ordinateur, directement dans le navigateur. Rien à installer."
       },
       {
         "q": "Mon enfant a-t-il besoin d'un compte ?",
         "a": "Non. Le parent se connecte avec son numéro de téléphone et crée jusqu'à 3 profils enfants. L'enfant choisit simplement son profil."
-      },
-      {
-        "q": "Que devient la photo de mon enfant ?",
-        "a": "Elle est stockée en privé et n'est visible que par votre famille. Vous pouvez la retirer à tout moment."
       }
     ],
     "ctaTitle": "Prêt pour ta première étoile ?",

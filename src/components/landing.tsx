@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ChildAvatar } from "@/components/child-avatar";
 import { Stars } from "@/components/stars";
 import type { Dictionary } from "@/i18n/dictionaries";
@@ -22,34 +21,6 @@ export function ZelligePattern({ id, className = "" }: { id: string; className?:
       </defs>
       <rect width="100%" height="100%" fill={`url(#${id})`} />
     </svg>
-  );
-}
-
-// Photo framed in a Moroccan arch (round top, soft bottom corners) with an offset outline behind it.
-export function ArchPhoto({
-  src,
-  width,
-  height,
-  sizes,
-  preload = false,
-  ring = "border-sun",
-  className = "",
-}: {
-  src: string;
-  width: number;
-  height: number;
-  sizes: string;
-  preload?: boolean;
-  ring?: string;
-  className?: string;
-}) {
-  return (
-    <div className={`relative ${className}`}>
-      <div aria-hidden="true" className={`absolute inset-0 translate-x-4 translate-y-4 rounded-t-full rounded-b-[2.5rem] border-4 ${ring} rtl:-translate-x-4`} />
-      <div className="relative overflow-hidden rounded-t-full rounded-b-[2.5rem] shadow-2xl shadow-black/20">
-        <Image src={src} alt="" width={width} height={height} sizes={sizes} preload={preload} className="h-full w-full object-cover" />
-      </div>
-    </div>
   );
 }
 
@@ -154,7 +125,7 @@ export function DashboardMockup({ mock, dash }: { mock: Mock; dash: Dash }) {
           <div key={i} className="flex flex-1 flex-col items-center gap-1">
             <span className="text-[10px] font-bold text-muted">{m}</span>
             <span
-              className={`w-full rounded-t-lg ${i === WEEK.length - 2 ? "bg-sun" : "bg-brand/70"}`}
+              className={`grow-on-view w-full rounded-t-lg ${i === WEEK.length - 2 ? "bg-sun" : "bg-brand/70"}`}
               style={{ height: `${(m / max) * 80}px` }}
             />
           </div>
